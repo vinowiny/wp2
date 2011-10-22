@@ -1,0 +1,10 @@
+class User
+  include MongoMapper::Document
+
+  has_many :posts
+
+  key :name, String
+  key :email, String
+  key :password, String
+
+end

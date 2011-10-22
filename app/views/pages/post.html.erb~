@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vinowiny | <%= @title %></title>
+  </head>
+  <body>
+    <h1>POST</h1>
+    <p>
+      This is the post page of Vinowiny
+    </p>
+  </body>
+</html>
+

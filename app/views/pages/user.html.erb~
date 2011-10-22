@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vinowiny | <%= @title %></title>
+  </head>
+  <body>
+    <h1>USER</h1>
+    <p>
+      This is the user page of Vinowiny
+    </p>
+  </body>
+</html>
+

@@ -1,0 +1,10 @@
+class Post
+  include MongoMapper::Document
+
+  belongs_to :user
+
+  key :user, String
+  key :title, String
+  key :content, String
+
+end

@@ -1,0 +1,12 @@
+<header>
+<%= logo = image_tag("logo.png", :alt => "vinowiny", :class => "round") %>
+<%= link_to logo, root_path %>
+  <nav class="round">
+    <ul>
+      <li><%= link_to "Home", root_path %></li>
+      <li><%= link_to "User", users_path %></li>
+      <li><%= link_to "Post", posts_path %></li>
+    </ul>
+  </nav>
+</header>
+
